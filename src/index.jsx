@@ -1,5 +1,6 @@
 'use strict';
 
+import './style.css';
 import * as actions from './actions';
 import {Provider, connect} from 'react-redux';
 import {bindActionCreators, createStore} from 'redux';
